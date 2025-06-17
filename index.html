@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ModernBlog - Your Digital Storytelling Hub</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- ===== HEADER & NAVIGATION ===== -->
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="#" class="logo">ModernBlog</a>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#blog" class="nav-link">Blog</a></li>
+                    <li><a href="#categories" class="nav-link">Categories</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Welcome to ModernBlog</h1>
+            <p>Discover amazing stories, insights, and ideas that inspire and inform your digital journey.</p>
+            <a href="#blog" class="btn btn-primary">Explore Articles</a>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section class="about section" id="about">
+        <div class="container">
+            <h2 class="section-title">About Our Blog</h2>
+            <div class="about-content ">
+                <p>ModernBlog is your go-to destination for cutting-edge insights, innovative ideas, and inspiring stories from the world of technology, design, and digital culture.</p>
+                <p>We curate high-quality content that empowers creators, entrepreneurs, and digital enthusiasts to stay ahead of the curve and build meaningful connections in our rapidly evolving digital landscape.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FEATURED POSTS ===== -->
+    <section class="featured section">
+        <div class="container">
+            <h2 class="section-title">Featured Posts</h2>
+            <div class="grid grid-2 ">
+                <article class="featured-post">
+                    <div class="featured-post-content">
+                        <h3>The Future of Web Development</h3>
+                        <p>Exploring the latest trends and technologies shaping the future of web development and user experience.</p>
+                        <div class="post-meta">
+                            <span><i class="fas fa-calendar"></i> June 8, 2025</span>
+                            <span><i class="fas fa-user"></i> Sarah Johnson</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="featured-post">
+                    <div class="featured-post-content">
+                        <h3>Design Thinking in Digital Age</h3>
+                        <p>How design thinking principles are revolutionizing product development and user-centered design.</p>
+                        <div class="post-meta">
+                            <span><i class="fas fa-calendar"></i> June 6, 2025</span>
+                            <span><i class="fas fa-user"></i> Michael Chen</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SEARCH SECTION ===== -->
+    <section class="search-section">
+        <div class="container">
+            <div class="search-container">
+                <i class="fas fa-search search-icon"></i>
+                <input type="text" class="search-input" id="search-input" placeholder="Search articles, topics, or authors...">
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== LATEST BLOG POSTS ===== -->
+    <section class="blog section" id="blog">
+        <div class="container">
+            <h2 class="section-title">Latest Articles</h2>
+            <div class="grid grid-3 " id="blog-posts">
+                <article class="blog-post">
+                    <div class="blog-post-image"></div>
+                    <div class="blog-post-content">
+                        <div class="post-meta">
+                            <span><i class="fas fa-calendar"></i> June 9, 2025</span>
+                            <span><i class="fas fa-tag"></i> Technology</span>
+                        </div>
+                        <h3>Building Scalable Web Applications</h3>
+                        <p>Learn the essential principles and best practices for creating web applications that can handle growth and scale effectively.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-post">
+                    <div class="blog-post-image"></div>
+                    <div class="blog-post-content">
+                        <div class="post-meta">
+                            <span><i class="fas fa-calendar"></i> June 8, 2025</span>
+                            <span><i class="fas fa-tag"></i> Design</span>
+                        </div>
+                        <h3>Modern UI/UX Design Trends</h3>
+                        <p>Discover the latest design trends that are shaping user interfaces and experiences in 2025.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-post">
+                    <div class="blog-post-image"></div>
+                    <div class="blog-post-content">
+                        <div class="post-meta">
+                            <span><i class="fas fa-calendar"></i> June 7, 2025</span>
+                            <span><i class="fas fa-tag"></i> Development</span>
+                        </div>
+                        <h3>JavaScript Performance Optimization</h3>
+                        <p>Advanced techniques for optimizing JavaScript code performance and improving application speed.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-post">
+                    <div class="blog-post-image"></div>
+                    <div class="blog-post-content">
+                        <div class="post-meta">
+                            <span><i class="fas fa-calendar"></i> June 6, 2025</span>
+                            <span><i class="fas fa-tag"></i> AI</span>
+                        </div>
+                        <h3>AI in Web Development</h3>
+                        <p>How artificial intelligence is transforming the way we build and interact with web applications.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-post">
+                    <div class="blog-post-image"></div>
+                    <div class="blog-post-content">
+                        <div class="post-meta">
+                            <span><i class="fas fa-calendar"></i> June 5, 2025</span>
+                            <span><i class="fas fa-tag"></i> Security</span>
+                        </div>
+                        <h3>Web Security Best Practices</h3>
+                        <p>Essential security measures every web developer should implement to protect applications and user data.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-post">
+                    <div class="blog-post-image"></div>
+                    <div class="blog-post-content">
+                        <div class="post-meta">
+                            <span><i class="fas fa-calendar"></i> June 4, 2025</span>
+                            <span><i class="fas fa-tag"></i> Mobile</span>
+                        </div>
+                        <h3>Mobile-First Development</h3>
+                        <p>Why mobile-first approach is crucial for modern web development and how to implement it effectively.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CATEGORIES SECTION ===== -->
+    <section class="categories section" id="categories">
+        <div class="container">
+            <h2 class="section-title">Explore Categories</h2>
+            <div class="grid grid-4 ">
+                <div class="category-card" data-category="technology">
+                    <div class="category-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Technology</h3>
+                    <p class="count">24 Articles</p>
+                </div>
+                <div class="category-card" data-category="design">
+                    <div class="category-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Design</h3>
+                    <p class="count">18 Articles</p>
+                </div>
+                <div class="category-card" data-category="development">
+                    <div class="category-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Development</h3>
+                    <p class="count">32 Articles</p>
+                </div>
+                <div class="category-card" data-category="ai">
+                    <div class="category-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Artificial Intelligence</h3>
+                    <p class="count">15 Articles</p>
+                </div>
+                <div class="category-card" data-category="security">
+                    <div class="category-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Security</h3>
+                    <p class="count">12 Articles</p>
+                </div>
+                <div class="category-card" data-category="mobile">
+                    <div class="category-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile</h3>
+                    <p class="count">21 Articles</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== POPULAR POSTS ===== -->
+    <section class="popular section">
+        <div class="container">
+            <h2 class="section-title">Popular Posts</h2>
+            <div class="grid grid-3 ">
+                <article class="blog-post">
+                    <div class="blog-post-image"></div>
+                    <div class="blog-post-content">
+                        <div class="post-meta">
+                            <span><i class="fas fa-eye"></i> 15.2K views</span>
+                            <span><i class="fas fa-heart"></i> 892 likes</span>
+                        </div>
+                        <h3>Complete Guide to React Hooks</h3>
+                        <p>Master React Hooks with this comprehensive guide covering useState, useEffect, and custom hooks.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-post">
+                    <div class="blog-post-image"></div>
+                    <div class="blog-post-content">
+                        <div class="post-meta">
+                            <span><i class="fas fa-eye"></i> 12.8K views</span>
+                            <span><i class="fas fa-heart"></i> 743 likes</span>
+                        </div>
+                        <h3>CSS Grid vs Flexbox</h3>
+                        <p>Understanding when to use CSS Grid and when to use Flexbox for optimal layout design.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-post">
+                    <div class="blog-post-image"></div>
+                    <div class="blog-post-content">
+                        <div class="post-meta">
+                            <span><i class="fas fa-eye"></i> 11.5K views</span>
+                            <span><i class="fas fa-heart"></i> 654 likes</span>
+                        </div>
+                        <h3>Node.js Best Practices</h3>
+                        <p>Essential best practices for building robust and scalable Node.js applications.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== AUTHOR BIO ===== -->
+    <section class="author-bio section">
+        <div class="container">
+            <h2 class="section-title">Meet the Author</h2>
+            <div class="">
+                <div class="author-avatar">JD</div>
+                <h3>Jane Doe</h3>
+                <p>Full-stack developer and tech writer with over 8 years of experience in web development. Passionate about sharing knowledge and helping others learn through clear, practical tutorials and insights.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== NEWSLETTER SIGNUP ===== -->
+    <section class="newsletter section">
+        <div class="container">
+            <h2 class="section-title" style="color: white;">Stay Updated</h2>
+            <p style="margin-bottom: 2rem; opacity: 0.9;">Subscribe to our newsletter and never miss the latest articles and insights.</p>
+            <form class="newsletter-form " id="newsletter-form">
+                <input type="email" class="newsletter-input" placeholder="Enter your email address" required>
+                <button type="submit" class="btn btn-secondary">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- ===== TESTIMONIALS ===== -->
+    <section class="testimonials section">
+        <div class="container">
+            <h2 class="section-title">What Readers Say</h2>
+            <div class="grid grid-3 ">
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"The tutorials are incredibly detailed and easy to follow. I've learned more here than in months of other resources."</p>
+                    <p class="testimonial-author">- Alex Thompson</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Amazing content quality and very practical examples. This blog has become my go-to resource for web development."</p>
+                    <p class="testimonial-author">- Maria Rodriguez</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"The explanations are clear and the code examples work perfectly. Highly recommend for anyone learning web development."</p>
+                    <p class="testimonial-author">- David Kim</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== QUOTE OF THE DAY ===== -->
+    <section class="quote-section section">
+        <div class="container">
+            <div class="quote-content ">
+                <p class="quote-text" id="quote-text">"The best way to predict the future is to create it."</p>
+                <p class="quote-author" id="quote-author">- Peter Drucker</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SOCIAL MEDIA ===== -->
+    <section class="social-media section">
+        <div class="container">
+            <h2 class="section-title">Follow Us</h2>
+            <div class="social-icons ">
+                <a href="#" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon linkedin"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-icon youtube"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== COMMENTS SECTION ===== -->
+    <section class="comments section">
+        <div class="container">
+            <h2 class="section-title">Join the Discussion</h2>
+            <div class="comment-form ">
+                <h3 style="margin-bottom: 1.5rem;">Leave a Comment</h3>
+                <form id="comment-form">
+                    <div class="form-group">
+                        <label class="form-label" for="comment-name">Name *</label>
+                        <input type="text" class="form-input" id="comment-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="comment-email">Email *</label>
+                        <input type="email" class="form-input" id="comment-email" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="comment-message">Message *</label>
+                        <textarea class="form-textarea" id="comment-message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Post Comment</button>
+                </form>
+            </div>
+            <div class="comments-list" id="comments-list">
+                <!-- Comments will be displayed here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== RELATED POSTS ===== -->
+    <section class="related section" style="background: var(--bg-secondary);">
+        <div class="container">
+            <h2 class="section-title">Related Articles</h2>
+            <div class="grid grid-3 ">
+                <article class="blog-post">
+                    <div class="blog-post-image"></div>
+                    <div class="blog-post-content">
+                        <div class="post-meta">
+                            <span><i class="fas fa-calendar"></i> June 3, 2025</span>
+                        </div>
+                        <h3>Advanced CSS Techniques</h3>
+                        <p>Explore advanced CSS features and techniques to create stunning web designs.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-post">
+                    <div class="blog-post-image"></div>
+                    <div class="blog-post-content">
+                        <div class="post-meta">
+                            <span><i class="fas fa-calendar"></i> June 2, 2025</span>
+                        </div>
+                        <h3>JavaScript Async/Await</h3>
+                        <p>Master asynchronous JavaScript programming with async/await patterns.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-post">
+                    <div class="blog-post-image"></div>
+                    <div class="blog-post-content">
+                        <div class="post-meta">
+                            <span><i class="fas fa-calendar"></i> June 1, 2025</span>
+                        </div>
+                        <h3>Web Accessibility Guide</h3>
+                        <p>Learn how to make your websites accessible to all users with disabilities.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT FORM ===== -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <form class="contact-form " id="contact-form">
+                <div class="form-group">
+                    <label class="form-label" for="contact-name">Name *</label>
+                    <input type="text" class="form-input" id="contact-name" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="contact-email">Email *</label>
+                    <input type="email" class="form-input" id="contact-email" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="contact-subject">Subject *</label>
+                    <input type="text" class="form-input" id="contact-subject" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="contact-message">Message *</label>
+                    <textarea class="form-textarea" id="contact-message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- ===== FAQ SECTION ===== -->
+    <section class="faq section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>How often do you publish new articles?</span>
+                        <i class="fas fa-chevron-down faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We publish new articles 2-3 times per week, covering the latest trends in web development, design, and technology.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Can I submit a guest post?</span>
+                        <i class="fas fa-chevron-down faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! We welcome guest contributions. Please contact us with your article idea and we'll review it for publication.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Is the newsletter free?</span>
+                        <i class="fas fa-chevron-down faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely! Our newsletter is completely free and contains exclusive content, tips, and early access to new articles.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Do you offer coding tutorials?</span>
+                        <i class="fas fa-chevron-down faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we regularly publish step-by-step coding tutorials for various programming languages and frameworks.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ModernBlog</h3>
+                    <p>Your trusted source for web development insights, tutorials, and industry trends. Join thousands of developers who read our content daily.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#blog">Blog</a>
+                    <a href="#categories">Categories</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Categories</h3>
+                    <a href="#">Web Development</a>
+                    <a href="#">UI/UX Design</a>
+                    <a href="#">JavaScript</a>
+                    <a href="#">React</a>
+                    <a href="#">Node.js</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <a href="#">Twitter</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">GitHub</a>
+                    <a href="#">YouTube</a>
+                    <a href="#">Newsletter</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 ModernBlog. All rights reserved. Built with ❤️ for the developer community.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== BACK TO TOP BUTTON ===== -->
+    <button class="back-to-top" id="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
